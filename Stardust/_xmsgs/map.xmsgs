@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="new" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;9&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;9&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;8&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;8&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;7&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;7&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;6&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;6&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;5&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;5&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;4&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;4&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;2&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;2&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;1&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;1&gt;</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="new" >Signal <arg fmt="%s" index="1">SerialPort&lt;0&gt;</arg> connected to top level port <arg fmt="%s" index="2">SerialPort&lt;0&gt;</arg> has been removed.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="new" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+</messages>
+
