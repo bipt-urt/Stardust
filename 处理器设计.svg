@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 1052.3622 744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="处理器设计.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleOutM"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4832"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5059"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5061"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4720"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;stroke:#000000;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.3) rotate(180) translate(-2.3,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Send"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4702"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.2) rotate(180) translate(6,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4696"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) rotate(180) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4687"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4832-3"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleOutM"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleOutM-6-4"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4832-3-7"
+         d="m 5.77,0 -8.65,5 0,-10 8.65,5 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         transform="scale(0.4,0.4)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="286.16349"
+     inkscape:cy="117.1502"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5529-2-6"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="1024"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.26772)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4136"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(0,308.26772)"><flowRegion
+         id="flowRegion4138"><rect
+           id="rect4140"
+           width="601.04077"
+           height="89.90358"
+           x="11.111678"
+           y="20.82526" /></flowRegion><flowPara
+         id="flowPara4142"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';font-size:22.5px">支持THCO-MIPS指令集的流水线处理器设计 Stardust</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4144"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(0,308.26772)"><flowRegion
+         id="flowRegion4146"><rect
+           id="rect4148"
+           width="548.57141"
+           height="21.428572"
+           x="12.857142"
+           y="56.951626" /></flowRegion><flowPara
+         id="flowPara4150"
+         style="font-size:10px">北京石油化工学院  计算机科学与技术系  王万霖  梁永宁</flowPara></flowRoot>    <g
+       id="g4638">
+      <rect
+         y="866.57538"
+         x="227.28432"
+         height="50.507626"
+         width="606.09155"
+         id="rect4193"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(0,294.26772)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'ubuntu mono';-inkscape-font-specification:'ubuntu mono';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4195"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4197"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'ubuntu mono';-inkscape-font-specification:'ubuntu mono';text-align:center;text-anchor:middle"
+             y="574.80878"
+             x="227.85715"
+             height="29.285715"
+             width="605.71429"
+             id="rect4199" /></flowRegion><flowPara
+           style="font-size:15px"
+           id="flowPara4201">Memory/COM/VGA access controller</flowPara></flowRoot>      <flowRoot
+         transform="translate(0,302.26772)"
+         style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4287"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4289"><rect
+             y="616.9516"
+             x="228.57143"
+             height="15.714286"
+             width="601.42859"
+             id="rect4291" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+           id="flowPara4293">memmgmt</flowPara></flowRoot>    </g>
+    <g
+       id="g4331">
+      <rect
+         y="697.1673"
+         x="93.944183"
+         height="34.345188"
+         width="34.345188"
+         id="rect4152"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(2.7779195,303.29818)"
+         style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4154"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4156"><rect
+             style="font-size:15px"
+             y="391.80377"
+             x="91.166267"
+             height="17.425131"
+             width="33.587574"
+             id="rect4158" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle"
+           id="flowPara4160">PC</flowPara></flowRoot>      <flowRoot
+         transform="translate(-2.6785714,355.41058)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.5px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4174"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4176"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"
+             y="376.77304"
+             x="84.196426"
+             height="9.6428576"
+             width="56.607143"
+             id="rect4178" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono Italic';text-align:center;text-anchor:middle"
+           id="flowPara4180">pc</flowPara></flowRoot>      <flowRoot
+         transform="translate(0,308.26772)"
+         style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4323"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4325"><rect
+             y="405.81964"
+             x="93.817917"
+             height="8.4600277"
+             width="34.345188"
+             id="rect4327" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+           id="flowPara4329">pc_var</flowPara></flowRoot>    </g>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4380"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:5px;line-height:125%;letter-spacing:0px;word-spacing:0px;"><flowRegion
+         id="flowRegion4382"><rect
+           id="rect4384"
+           width="78.660713"
+           height="42.142857"
+           x="228.125"
+           y="700.25519"
+           style="font-size:5px;" /></flowRegion><flowPara
+         id="flowPara4386"></flowPara></flowRoot>    <g
+       id="g4511">
+      <rect
+         y="929.07648"
+         x="228.21428"
+         height="38.92857"
+         width="77.85714"
+         id="rect4346"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <flowRoot
+         transform="translate(0,268.26772)"
+         style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4348"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4350"><rect
+             y="661.23737"
+             x="228.57143"
+             height="19.642857"
+             width="76.785713"
+             id="rect4352" /></flowRegion><flowPara
+           style="font-size:12.5px;text-align:center;text-anchor:middle"
+           id="flowPara4354">Memory #1</flowPara></flowRoot>      <flowRoot
+         transform="translate(0,276.26772)"
+         style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4356"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4358"><rect
+             y="692.30878"
+             x="228.57143"
+             height="9.6428576"
+             width="77.85714"
+             id="rect4360" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+           id="flowPara4362">mem1</flowPara></flowRoot>      <flowRoot
+         transform="translate(0,278.26772)"
+         style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4364"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4366"><rect
+             y="667.32288"
+             x="227.91566"
+             height="24.36993"
+             width="77.781746"
+             id="rect4368" /></flowRegion><flowPara
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+           id="flowPara4372">mem1_EN mem1_OE mem1_RW</flowPara><flowPara
+           id="flowPara4376"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">mem1_addr[0...17]</flowPara><flowPara
+           id="flowPara4378"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">mem1_data[0...15]</flowPara></flowRoot>      <flowRoot
+         transform="translate(0,276.26772)"
+         style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot4388"
+         xml:space="preserve"><flowRegion
+           id="flowRegion4390"><rect
+             y="701.84448"
+             x="228.375"
+             height="57.75"
+             width="78.25"
+             id="rect4392" /></flowRegion><flowPara
+           style="font-style:italic;font-size:5px"
+           id="flowPara4394">mem1_data[0...15]</flowPara><flowPara
+           id="flowPara4396"
+           style="font-size:5px">J12 J13 J14 J15 J16 J17 K12 K13 K14 K15 L15 L16 L17 L18 M13 M14</flowPara><flowPara
+           id="flowPara4398"
+           style="font-style:italic;font-size:5px">mem1_addr[0...17]</flowPara><flowPara
+           id="flowPara4400"
+           style="font-size:5px">C17 C18 D16 D17 E15 E16 F14 F15 F17 F18 G13 G14 G15 G16 H14 H15 H16 H17</flowPara><flowPara
+           id="flowPara4402"
+           style="font-size:5px"><flowSpan
+   id="flowSpan4406"
+   style="font-style:italic">mem1_EN</flowSpan> M15 <flowSpan
+   id="flowSpan4410"
+   style="font-style:italic">mem1_OE</flowSpan> M16</flowPara><flowPara
+           id="flowPara4404"
+           style="font-size:5px"><flowSpan
+   id="flowSpan4408"
+   style="font-style:italic">mem1_RW</flowSpan> M18</flowPara></flowRoot>    </g>
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4346-3"
+       width="77.85714"
+       height="38.92857"
+       x="366.07367"
+       y="929.06085" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4348-6"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(137.8594,268.2527)"><flowRegion
+         id="flowRegion4350-7"><rect
+           id="rect4352-5"
+           width="76.785713"
+           height="19.642857"
+           x="228.57143"
+           y="661.23737" /></flowRegion><flowPara
+         id="flowPara4354-3"
+         style="font-size:12.5px;text-align:center;text-anchor:middle">Memory #2</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4356-5"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(137.8594,276.2527)"><flowRegion
+         id="flowRegion4358-6"><rect
+           id="rect4360-2"
+           width="77.85714"
+           height="9.6428576"
+           x="228.57143"
+           y="692.30878" /></flowRegion><flowPara
+         id="flowPara4362-9"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">mem2</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4364-1"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(137.8594,278.2527)"><flowRegion
+         id="flowRegion4366-2"><rect
+           id="rect4368-7"
+           width="77.781746"
+           height="24.36993"
+           x="227.91566"
+           y="667.32288" /></flowRegion><flowPara
+         id="flowPara4372-0"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">mem2_EN mem2_OE mem2_RW</flowPara><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+         id="flowPara4376-9">mem2_addr[0...17]</flowPara><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+         id="flowPara4378-3">mem2_data[0...15]</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4388-6"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(135.8594,276.2527)"><flowRegion
+         id="flowRegion4390-0"><rect
+           id="rect4392-6"
+           width="80.125"
+           height="58.125"
+           x="228.375"
+           y="701.84448" /></flowRegion><flowPara
+         id="flowPara4394-2"
+         style="font-style:italic;font-size:5px">mem2_data[0...15]</flowPara><flowPara
+         style="font-size:5px"
+         id="flowPara4396-6">U13 T16 T15 T14 T12 R13 R14 R12 R11 R10 P13 P12 P11 P10 N12 N11</flowPara><flowPara
+         style="font-style:italic;font-size:5px"
+         id="flowPara4398-1">mem2_addr[0...17]</flowPara><flowPara
+         style="font-size:5px"
+         id="flowPara4400-8">N14 N15 N18 P16 P17 P18 R15 R16 R18 T17 T18 U18 V15 V13 V12 V9 U16 U15</flowPara><flowPara
+         style="font-size:5px"
+         id="flowPara4402-7"><flowSpan
+   style="font-style:italic"
+   id="flowSpan4406-9"> mem2_EN <flowSpan
+   style="font-style:normal"
+   id="flowSpan4505">N10</flowSpan> mem2_OE </flowSpan>R9</flowPara><flowPara
+         style="font-style:italic;font-size:5px"
+         id="flowPara4404-0"> mem2_RW <flowSpan
+   style="font-style:normal"
+   id="flowSpan4509">M9</flowSpan></flowPara></flowRoot>    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4346-3-3"
+       width="77.85714"
+       height="38.92857"
+       x="589.49109"
+       y="929.0451" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4348-6-7"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(361.2768,268.23693)"><flowRegion
+         id="flowRegion4350-7-5"><rect
+           id="rect4352-5-9"
+           width="76.785713"
+           height="19.642857"
+           x="228.57143"
+           y="661.23737" /></flowRegion><flowPara
+         id="flowPara4354-3-2"
+         style="font-size:12.5px;text-align:center;text-anchor:middle">COM</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4356-5-2"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(361.2768,276.23693)"><flowRegion
+         id="flowRegion4358-6-8"><rect
+           id="rect4360-2-9"
+           width="77.85714"
+           height="9.6428576"
+           x="228.57143"
+           y="692.30878" /></flowRegion><flowPara
+         id="flowPara4362-9-7"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">mem2</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4364-1-3"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(359.2768,278.23693)"><flowRegion
+         id="flowRegion4366-2-6"><rect
+           id="rect4368-7-1"
+           width="77.781746"
+           height="24.36993"
+           x="227.91566"
+           y="667.32288" /></flowRegion><flowPara
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
+         id="flowPara4378-3-3" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4388-6-1"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(359.2768,276.23693)"><flowRegion
+         id="flowRegion4390-0-9"><rect
+           id="rect4392-6-4"
+           width="80.125"
+           height="58.125"
+           x="228.375"
+           y="701.84448" /></flowRegion><flowPara
+         id="flowPara4394-2-7"
+         style="font-style:italic;font-size:5px">mem2_data[0...15]</flowPara><flowPara
+         style="font-size:5px"
+         id="flowPara4396-6-8">U13 T16 T15 T14 T12 R13 R14 R12 R11 R10 P13 P12 P11 P10 N12 N11</flowPara><flowPara
+         style="font-style:italic;font-size:5px"
+         id="flowPara4398-1-4">mem2_addr[0...17]</flowPara><flowPara
+         style="font-size:5px"
+         id="flowPara4400-8-5">N14 N15 N18 P16 P17 P18 R15 R16 R18 T17 T18 U18 V15 V13 V12 V9 U16 U15</flowPara><flowPara
+         style="font-size:5px"
+         id="flowPara4402-7-0"><flowSpan
+   style="font-style:italic"
+   id="flowSpan4406-9-3"> mem2_EN <flowSpan
+   style="font-style:normal"
+   id="flowSpan4505-6">N10</flowSpan> mem2_OE </flowSpan>R9</flowPara><flowPara
+         style="font-style:italic;font-size:5px"
+         id="flowPara4404-0-1"> mem2_RW <flowSpan
+   style="font-style:normal"
+   id="flowSpan4509-0">M9</flowSpan></flowPara></flowRoot>    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4649"
+       width="57.27565"
+       height="286.37823"
+       x="198.81833"
+       y="526.90216" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4673"
+       style="font-style:normal;font-weight:normal;font-size:7.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(0,312.26772)"><flowRegion
+         id="flowRegion4675"><rect
+           id="rect4677"
+           width="162.63457"
+           height="13.611806"
+           x="146.90143"
+           y="503.5014" /></flowRegion><flowPara
+         id="flowPara4679"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle">if_id_segment_register</flowPara></flowRoot>    <g
+       id="g5641">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4681"
+         d="m 234.0625,917.2997 0,8.75996"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM)" />
+      <flowRoot
+         transform="translate(43.3125,312.64272)"
+         style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5515"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5517"><rect
+             style="font-size:5px"
+             y="604.96948"
+             x="193.75"
+             height="16.125"
+             width="34.125"
+             id="rect5519" /></flowRegion><flowPara
+           id="flowPara5621"
+           style="font-size:3.75px;-inkscape-font-specification:'sans-serif Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal">mem1_</flowPara><flowPara
+           id="flowPara5627"
+           style="font-size:3.75px;-inkscape-font-specification:'sans-serif Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal">EN OE RW</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(28.11183,0.27875)"
+       id="g5529-2">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4681-0"
+         d="m 234.0625,917.2997 0,8.75996"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM-6)" />
+      <flowRoot
+         transform="translate(41.75,312.64272)"
+         style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5515-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5517-1"><rect
+             style="font-size:5px"
+             y="604.96948"
+             x="193.75"
+             height="16.125"
+             width="34.125"
+             id="rect5519-5" /></flowRegion><flowPara
+           id="flowPara5521-5"
+           style="-inkscape-font-specification:'sans-serif Italic';font-family:sans-serif;font-weight:normal;font-style:italic;font-stretch:normal;font-variant:normal">mem1_addr</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(60.882221,0.02874999)"
+       id="g5529-2-6">
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4681-0-5"
+         d="m 234.0625,917.2997 0,8.75996"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#TriangleOutM-6-4)" />
+      <flowRoot
+         transform="translate(41.75,312.64272)"
+         style="font-style:normal;font-weight:normal;font-size:5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot5515-6-6"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5517-1-9"><rect
+             style="font-size:5px"
+             y="604.96948"
+             x="193.75"
+             height="16.125"
+             width="34.125"
+             id="rect5519-5-3" /></flowRegion><flowPara
+           id="flowPara5521-5-7"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">mem1_data</flowPara></flowRoot>    </g>
+  </g>
+</svg>
