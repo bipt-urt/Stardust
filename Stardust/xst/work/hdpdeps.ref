@@ -1,0 +1,6 @@
+V3 3
+FL /home/liangyongning/mypro/Stardust/Stardust/RAM1.vhd 2018/01/03.14:57:02 P.20131013
+EN work/RAM1 1514962627 FL /home/liangyongning/mypro/Stardust/Stardust/RAM1.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/RAM1/Behavioral 1514962628 \
+      FL /home/liangyongning/mypro/Stardust/Stardust/RAM1.vhd EN work/RAM1 1514962627
