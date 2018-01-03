@@ -20,13 +20,28 @@
   <defs
      id="defs4">
     <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker14891"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="TriangleOutM">
+      <path
+         transform="scale(0.4)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         id="path14893" />
+    </marker>
+    <marker
        inkscape:stockid="TriangleOutM"
        orient="auto"
        refY="0.0"
        refX="0.0"
        id="marker14669"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          id="path14671"
          d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
@@ -530,9 +545,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="773.59208"
-     inkscape:cy="234.22575"
+     inkscape:zoom="8"
+     inkscape:cx="670.86273"
+     inkscape:cy="200.05655"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1667,9 +1682,10 @@
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';text-align:center;text-anchor:middle"
          id="flowPara10316-5">imm value</flowPara></flowRoot>    <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker10763)"
-       d="m 865.5,801.8622 17.5,0 0,28.5 -512.5,0 0,-15"
+       d="m 865.5,801.8622 17.5,0 0,28.5 -171.25,0 c -1.13356,1.9483 -2.4718,2.37613 -4.1875,0 l -6.8125,0 c -1.8132,3.17695 -2.96085,1.52866 -4.125,0 l -7.15625,0 c -1.30731,2.66431 -2.43221,2.5013 -3.40625,0 l -315.5625,0 0,-15"
        id="path10755"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot10929"
@@ -1887,5 +1903,11 @@
        d="m 664.32682,774.11568 45.25484,0 0,74.42299 30.75914,0 0,8.83884 38.36054,0 0,6.18718"
        id="path14661"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker14891)"
+       d="m 664.68037,602.64229 9.8995,0 0,-89.09546 -37.92362,0 c -1.52265,-2.21904 -2.55934,-1.1173 -3.59375,0 l -199.6875,0 c -2.25033,-2.81398 -3.60888,-1.61495 -4.875,0 l -181.3125,0 c -2.00504,-2.90289 -3.83784,-2.246 -5.59375,0 l -166.640431,0 0,200.11122 14.142136,0"
+       id="path14883"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccc" />
   </g>
 </svg>
