@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-liangyongning-QTJ5::  Wed Jan 03 14:57:22 2018
+liangyongning-QTJ5::  Wed Jan 03 15:44:36 2018
 
 par -w -intstyle ise -ol high -t 1 RAM1_map.ncd RAM1.ncd RAM1.pcf 
 
@@ -63,13 +63,13 @@ Total REAL time at the beginning of Placer: 1 secs
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:1004) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:1004) REAL time: 1 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:1004) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:1004) REAL time: 1 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:1004) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:1004) REAL time: 1 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 ......
@@ -90,18 +90,18 @@ Phase 8.5  Local Placement Optimization (Checksum:dba1b683) REAL time: 2 secs
 
 Phase 9.8  Global Placement
 ..
-Phase 9.8  Global Placement (Checksum:82285ac1) REAL time: 4 secs 
+Phase 9.8  Global Placement (Checksum:82285ac1) REAL time: 3 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:82285ac1) REAL time: 4 secs 
+Phase 10.5  Local Placement Optimization (Checksum:82285ac1) REAL time: 3 secs 
 
 Phase 11.18  Placement Optimization
-Phase 11.18  Placement Optimization (Checksum:d4211c41) REAL time: 4 secs 
+Phase 11.18  Placement Optimization (Checksum:d4211c41) REAL time: 3 secs 
 
 Phase 12.5  Local Placement Optimization
-Phase 12.5  Local Placement Optimization (Checksum:d4211c41) REAL time: 4 secs 
+Phase 12.5  Local Placement Optimization (Checksum:d4211c41) REAL time: 3 secs 
 
-Total REAL time to Placer completion: 4 secs 
+Total REAL time to Placer completion: 3 secs 
 Total CPU  time to Placer completion: 3 secs 
 Writing design to file RAM1.ncd
 
@@ -110,34 +110,34 @@ Writing design to file RAM1.ncd
 Starting Router
 
 
-Phase  1  : 114 unrouted;      REAL time: 8 secs 
+Phase  1  : 114 unrouted;      REAL time: 7 secs 
 
-Phase  2  : 94 unrouted;      REAL time: 8 secs 
+Phase  2  : 94 unrouted;      REAL time: 7 secs 
 
-Phase  3  : 13 unrouted;      REAL time: 8 secs 
+Phase  3  : 13 unrouted;      REAL time: 7 secs 
 
-Phase  4  : 14 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  4  : 14 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
 
 Updating file: RAM1.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 8 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
-Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 10 secs 
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 9 secs 
 
-Total REAL time to Router completion: 10 secs 
-Total CPU time to Router completion: 9 secs 
+Total REAL time to Router completion: 9 secs 
+Total CPU time to Router completion: 8 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -192,10 +192,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 10 secs 
-Total CPU time to PAR completion: 9 secs 
+Total REAL time to PAR completion: 9 secs 
+Total CPU time to PAR completion: 8 secs 
 
-Peak Memory Usage:  592 MB
+Peak Memory Usage:  594 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.

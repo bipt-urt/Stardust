@@ -5,28 +5,28 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">data</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">ZZZZZZZZZZZZZZZZ</arg> during circuit operation. The register is replaced by logic.
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">data</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">ZZZZZZZZZZZZZZZZ</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">SerialPort</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">ZZZZZZ1ZZZ</arg> during circuit operation. The register is replaced by logic.
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">SerialPort</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">ZZZZZZ1ZZZ</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">EN</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">EN</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">0</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">WE</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">WE</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; has a constant value of <arg fmt="%s" index="3">1</arg> during circuit operation. The register is replaced by logic.
 </msg>
 
-<msg type="info" file="Xst" num="2561" delta="new" >Always blocking tristate driving signal &lt;<arg fmt="%s" index="1">data</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; is removed.
+<msg type="info" file="Xst" num="2561" delta="old" >Always blocking tristate driving signal &lt;<arg fmt="%s" index="1">data</arg>&gt; in unit &lt;<arg fmt="%s" index="2">RAM1</arg>&gt; is removed.
 </msg>
 
-<msg type="warning" file="Xst" num="1710" delta="new" >FF/Latch &lt;<arg fmt="%s" index="1">ramAddr_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ramAddr_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="1895" delta="new" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ramAddr_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">ramAddr_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">RAM1</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
 </msg>
 
-<msg type="warning" file="Xst" num="2404" delta="new" > FFs/Latches &lt;<arg fmt="%s" index="1">ramAddr</arg>&lt;<arg fmt="%d" index="2">17</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">RAM1</arg>&gt;.
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">ramAddr</arg>&lt;<arg fmt="%d" index="2">17</arg>:<arg fmt="%d" index="3">16</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">RAM1</arg>&gt;.
 </msg>
 
 </messages>
