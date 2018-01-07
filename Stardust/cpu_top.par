@@ -1,0 +1,287 @@
+Release 14.7 par P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+liangyongning-QTJ5::  Fri Jan 05 11:04:44 2018
+
+par -w -intstyle ise -ol high -t 1 cpu_top_map.ncd cpu_top.ncd cpu_top.pcf 
+
+
+Constraints file: cpu_top.pcf.
+Loading device for application Rf_Device from file '3s1200e.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
+   "cpu_top" is an NCD, version 3.2, device xc3s1200e, package fg320, speed -4
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:54 - 'xc3s1200e' is a WebPack part.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.320 Volts)
+
+INFO:Par:282 - No user timing constraints were detected or you have set the option to ignore timing constraints ("par
+   -x"). Place and Route will run in "Performance Evaluation Mode" to automatically improve the performance of all
+   internal clocks in this design. Because there are not defined timing requirements, a timing score will not be
+   reported in the PAR report in this mode. The PAR timing summary will list the performance achieved for each clock.
+   Note: For the fastest runtime, set the effort level to "std".  For best performance, set the effort level to "high".
+
+Device speed data version:  "PRODUCTION 1.27 2013-10-13".
+
+
+Design Summary Report:
+
+ Number of External IOBs                         123 out of 250    49%
+
+   Number of External Input IOBs                 51
+
+      Number of External Input IBUFs             51
+        Number of LOCed External Input IBUFs     51 out of 51    100%
+
+
+   Number of External Output IOBs                72
+
+      Number of External Output IOBs             72
+        Number of LOCed External Output IOBs     72 out of 72    100%
+
+
+   Number of External Bidir IOBs                  0
+
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+WARNING:Par:288 - The signal top_ram1_data<9>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<10>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<17>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<11>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_en_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<12>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<13>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_oe_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<10>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<14>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<11>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<15>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<0>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<12>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<1>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<13>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<2>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_oe_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<10>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<14>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<3>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<11>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<15>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<4>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<12>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<5>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<13>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<0>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_left_dyp<6>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_we_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<14>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<1>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<15>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<2>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<3>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<0>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<4>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<1>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_we_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<5>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<2>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<6>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<3>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<7>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<0>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<4>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<8>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<1>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<5>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<9>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<2>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<6>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<3>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<7>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<4>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<8>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<5>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_sw<9>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<6>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<7>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<0>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<8>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<1>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<10>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram2_data<9>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<2>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<0>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<11>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<3>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<1>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<12>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<4>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<2>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<13>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<5>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<3>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<14>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_rigth_dyp<6>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<4>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<15>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<5>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<6>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<0>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<7>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<1>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<8>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_clk50_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<2>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_led<9>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<3>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<4>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<5>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<6>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<10>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<7>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<11>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_rst_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<0>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<8>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<12>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<1>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_clk_key_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<9>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<13>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<2>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<10>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<14>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<3>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<11>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<15>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<4>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<12>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<16>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<5>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<13>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_addr<17>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<6>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<14>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram1_en_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<7>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<15>_OBUF has no driver.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal top_ram1_data<8>_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:289 - The signal top_ram2_addr<16>_OBUF has no driver.  PAR will not attempt to route this signal.
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+Phase 4.2  Initial Clock and IO Placement (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 5.30  Global Clock Region Assignment
+Phase 5.30  Global Clock Region Assignment (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 6.36  Local Placement Optimization
+Phase 6.36  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 7.8  Global Placement
+Phase 7.8  Global Placement (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 9.18  Placement Optimization
+Phase 9.18  Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU  time to Placer completion: 1 secs 
+Writing design to file cpu_top.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 0 unrouted;      REAL time: 6 secs 
+
+Phase  2  : 0 unrouted;      REAL time: 6 secs 
+
+Phase  3  : 0 unrouted;      REAL time: 6 secs 
+
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+
+Updating file: cpu_top.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+
+Total REAL time to Router completion: 7 secs 
+Total CPU time to Router completion: 5 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+Timing Score: 0 (Setup: 0, Hold: 0)
+
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 51 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+WARNING:Par:284 - There are 72 sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
+
+Total REAL time to PAR completion: 7 secs 
+Total CPU time to PAR completion: 6 secs 
+
+Peak Memory Usage:  592 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 127
+Number of info messages: 1
+
+Writing design to file cpu_top.ncd
+
+
+
+PAR done!
