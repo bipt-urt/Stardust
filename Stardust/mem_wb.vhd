@@ -44,6 +44,7 @@ entity mem_wb is
 				mem_wb_mux6_out : out std_logic_vector(1 downto 0);
 				mem_wb_pause : in std_logic;
 				mem_wb_clk50 : in std_logic
+			);
 end mem_wb;
 
 architecture Behavioral of mem_wb is
@@ -61,6 +62,7 @@ begin
 end process;
 
 process(clk50,mem_wb_pause)
+begin
 	if(mem_wb_pause='0')then
 		mem_wb_pc_out <= mem_wb_pc_temp - '1';
 		mem_wb_aluResult_out <= mem_wb_aluResult_temp;

@@ -77,6 +77,7 @@ signal id_exe_mux1_temp,id_exe_mux2_temp : std_logic_vector:="00";
 signal id_exe_mux3_temp,id_exe_mux4_temp : std_logic_vector:="00";
 signal id_exe_mux5_temp,id_exe_mux6_temp : std_logic_vector:="00";
 begin
+
 process(clk50)
 begin
 	id_exe_pc_temp <= id_exe_pc_in;
