@@ -31,42 +31,110 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity id_exe is
 
-end id_exe;
 	port (
-				id_exe_pc_in : std_logic_vector(15 downto 0);
-				id_exe_pc_out : std_logic_vector(15 downto 0);
-				id_exe_instrution_in : std_logic_vector(15 downto 0);
-				id_exe_instrution_out : std_logic_vector(15 downto 0);
-				id_exe_immediate_in : std_logic_vector(15 downto 0);
-				id_exe_immediate_out : std_logic_vector(15 downto 0);
-				id_exe_rx_in : std_logic_vector(15 downto 0);
-				id_exe_rx_out : std_logic_vector(15 downto 0);
-				id_exe_ry_in : std_logic_vector(15 downto 0);
-				id_exe_ry_out : std_logic_vector(15 downto 0);
-				id_exe_rz_in : std_logic_vector(15 downto 0);
-				id_exe_rz_out : std_logic_vector(15 downto 0);
-				id_exc_aluOP_in : std_logic_vector(3 downto 0);
-				id_exe_aluOP_out : std_logic_vector(3 downto 0);
-				id_exe_memWrite_in : std_logic;
-				id_exe_memWrite_out : std_logic;
-				id_exe_memRead_in : std_logic;
-				id_exe_memRead_out : std_logic;
-				id_exe_mux1_in : std_logic_vector(1 downto 0);
-				id_exe_mux1_out : std_logic_vector(1 downto 0);
-				id_exe_mux2_in : std_logic_vector(1 downto 0);
-				id_exe_mux2_out : std_logic_vector(1 downto 0);
-				id_exe_mux3_in : std_logic_vector(1 downto 0);
-				id_exe_mux3_out : std_logic_vector(1 downto 0);
-				id_exe_mux4_in : std_logic_vector(1 downto 0);
-				id_exe_mux4_out : std_logic_vector(1 downto 0);
-				id_exe_mux5_in : std_logic_vector(1 downto 0);
-				id_exe_mux5_out : std_logic_vector(1 downto 0);
-				id_exe_mux6_in : std_logic_vector(1 downto 0);
-				id_exe_mux6_out : std_logic_vector(1 downto 0);
+				id_exe_pc_in : in std_logic_vector(15 downto 0);
+				id_exe_pc_out : out std_logic_vector(15 downto 0);
+				id_exe_instrution_in : in std_logic_vector(15 downto 0);
+				id_exe_instrution_out : out std_logic_vector(15 downto 0);
+				id_exe_immediate_in : in std_logic_vector(15 downto 0);
+				id_exe_immediate_out : out std_logic_vector(15 downto 0);
+				id_exe_rx_in : in std_logic_vector(15 downto 0);
+				id_exe_rx_out : out std_logic_vector(15 downto 0);
+				id_exe_ry_in : in std_logic_vector(15 downto 0);
+				id_exe_ry_out : out std_logic_vector(15 downto 0);
+				id_exe_rz_in : in std_logic_vector(15 downto 0);
+				id_exe_rz_out : out std_logic_vector(15 downto 0);
+				id_exc_aluOP_in : in std_logic_vector(3 downto 0);
+				id_exe_aluOP_out : out std_logic_vector(3 downto 0);
+				id_exe_memWrite_in : in std_logic;
+				id_exe_memWrite_out : out std_logic;
+				id_exe_memRead_in : in std_logic;
+				id_exe_memRead_out : out std_logic;
+				id_exe_clean : in std_logic;
+				id_exe_pause : in std_logic;
+				id_exe_clk50 : in std_logic; 
+				id_exe_mux1_in : in std_logic_vector(1 downto 0);
+				id_exe_mux1_out : out std_logic_vector(1 downto 0);
+				id_exe_mux2_in : in std_logic_vector(1 downto 0);
+				id_exe_mux2_out : out std_logic_vector(1 downto 0);
+				id_exe_mux3_in : in std_logic_vector(1 downto 0);
+				id_exe_mux3_out : out std_logic_vector(1 downto 0);
+				id_exe_mux4_in : in std_logic_vector(1 downto 0);
+				id_exe_mux4_out : out std_logic_vector(1 downto 0);
+				id_exe_mux5_in : in std_logic_vector(1 downto 0);
+				id_exe_mux5_out : out std_logic_vector(1 downto 0);
+				id_exe_mux6_in : in std_logic_vector(1 downto 0);
+				id_exe_mux6_out : out std_logic_vector(1 downto 0));
+end id_exe;	
+				
 architecture Behavioral of id_exe is
-
+signal id_exe_pc_temp,id_exe_instrution_temp : std_logic_vector(15 downto 0):="0000000000000000";
+signal id_exe_immediate_temp,id_exe_rx_temp : std_logic_vector(15 downto 0):="0000000000000000";
+signal id_exe_ry_temp,id_exe_rz_temp : std_logic_vector(15 downto 0):="0000000000000000";
+signal id_exe_aluOP_temp : std_logic_vector(3 downto 0):="0000";
+signal id_exe_memWrite_temp,id_exe_memRead_temp : std_logic:='0';
+signal id_exe_mux1_temp,id_exe_mux2_temp : std_logic_vector:="00";
+signal id_exe_mux3_temp,id_exe_mux4_temp : std_logic_vector:="00";
+signal id_exe_mux5_temp,id_exe_mux6_temp : std_logic_vector:="00";
 begin
+process(clk50)
+begin
+	id_exe_pc_temp <= id_exe_pc_in;
+	id_exe_instrution_temp <= id_exe_instrution_in;
+	id_exe_immediate_temp <= id_exe_immediate_in;
+	id_exe_rx_temp <= id_exe_rx_in;
+	id_exe_ry_temp <= id_exe_ry_in;
+	id_exe_rz_temp <= id_exe_rz_in;
+	id_exe_aluOP_temp <= id_exc_aluOP_in;
+	id_exe_memWrite_temp <= id_exe_memWrite_in;
+	id_exe_memRead_temp <= id_exe_memRead_in;
+	id_exe_mux1_temp <= id_exe_mux1_in;
+	id_exe_mux2_temp <= id_exe_mux2_in;
+	id_exe_mux3_temp <= id_exe_mux3_in;
+	id_exe_mux4_temp <= id_exe_mux4_in;
+	id_exe_mux5_temp <= id_exe_mux5_in;
+	id_exe_mux6_temp <= id_exe_mux6_in;	
+end process;
 
-
+process(id_exe_clean,id_exe_pause)
+begin
+	if(id_exe_clean='1' and id_exe_pause='0')then
+		id_exe_pc_out <= "0000000000000000";
+		id_exe_instrution_out <= "0000000000000000";
+		id_exe_immediate_out <= "0000000000000000";
+		id_exe_rx_out <= "0000000000000000";
+		id_exe_ry_out <= "0000000000000000";
+		id_exe_rz_out <= "0000000000000000";
+		id_exe_aluOP_out <= "0000";
+		id_exe_memWrite_out <= '0';
+		id_exe_memRead_out <= '0';
+		id_exe_mux1_out <= "00";
+		id_exe_mux2_out <= "00";
+		id_exe_mux3_out <= "00";
+		id_exe_mux4_out <= "00";
+		id_exe_mux5_out <= "00";
+		id_exe_mux6_out <= "00";
+	elsif(id_exe_clean='0' and id_exe_pause='1')then
+		null;
+	elsif(id_exe_clean='0' and id_exe_pause='0')then
+		id_exe_pc_out <= id_exe_pc_temp;
+		id_exe_instrution_out <= id_exe_instrution_temp;
+		id_exe_immediate_out <= id_exe_immediate_temp;
+		id_exe_rx_out <= id_exe_rx_temp;
+		id_exe_ry_out <= id_exe_ry_temp;
+		id_exe_rz_out <= id_exe_rz_temp;
+		id_exe_aluOP_out <= id_exe_aluOP_temp;
+		id_exe_memWrite_out <= id_exe_memWrite_temp;
+		id_exe_memRead_out <= id_exe_memRead_temp;
+		id_exe_mux1_out <= id_exe_mux1_temp;
+		id_exe_mux2_out <= id_exe_mux2_temp;
+		id_exe_mux3_out <= id_exe_mux3_temp;
+		id_exe_mux4_out <= id_exe_mux4_temp;
+		id_exe_mux5_out <= id_exe_mux5_temp;
+		id_exe_mux6_out <= id_exe_mux6_temp;
+	else
+		null;
+	end if;
+end process;
 end Behavioral;
 
