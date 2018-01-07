@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.03 secs
+Total CPU time to Xst completion: 0.04 secs
  
 --> 
 Reading design: cpu_top.prj
@@ -108,8 +108,7 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "/home/liangyongning/mypro/Stardust/Stardust/cpu_top.vhd" in Library work.
-Entity <cpu_top> compiled.
-Entity <cpu_top> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity cpu_top is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -292,7 +291,7 @@ All values displayed in nanoseconds (ns)
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.03 secs
+Total CPU time to Xst completion: 3.14 secs
  
 --> 
 
