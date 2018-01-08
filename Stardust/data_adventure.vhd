@@ -78,15 +78,41 @@ begin
 				rz_temp2 := data_adventure_rzNumber_in;
 			end if;
 	else
-			if_id_pause_control <= '0';
-			id_exe_pause_control <= '0';
-			mem_wb_pause_control <= '0';
-			rx_temp2 := rx_temp1;
-			ry_temp2 := ry_temp1;
-			rz_temp2 := rz_temp1;
-			rx_temp1 := data_adventure_rxNumber_in;
-			ry_temp1 := data_adventure_ryNumber_in;
-			rz_temp2 := data_adventure_rzNumber_in;
+			if(rx_temp2 = data_adventure_rxNumber_in)then
+				data_adventure_mux2 <= "10";--选择内存读出来的数据
+				data_adventure_mux5 <= "01";--多路选择器出来的值
+				if_id_pause_control <= '0';
+				id_exe_pause_control <= '0';
+				mem_wb_pause_control <= '0';
+				rx_temp2 := rx_temp1;
+				ry_temp2 := ry_temp1;
+				rz_temp2 := rz_temp1;
+				rx_temp1 := data_adventure_rxNumber_in;
+				ry_temp1 := data_adventure_ryNumber_in;
+				rz_temp2 := data_adventure_rzNumber_in;
+			elsif(ry_temp2 = data_adventure_ryNumber_in)then
+				data_adventure_mux2 <= "01";--多路选择器出来的值
+				data_adventure_mux5 <= "10";--选择内存读出来的数据
+				if_id_pause_control <= '0';
+				id_exe_pause_control <= '0';
+				mem_wb_pause_control <= '0';
+				rx_temp2 := rx_temp1;
+				ry_temp2 := ry_temp1;
+				rz_temp2 := rz_temp1;
+				rx_temp1 := data_adventure_rxNumber_in;
+				ry_temp1 := data_adventure_ryNumber_in;
+				rz_temp2 := data_adventure_rzNumber_in;
+			else
+				if_id_pause_control <= '0';
+				id_exe_pause_control <= '0';
+				mem_wb_pause_control <= '0';
+				rx_temp2 := rx_temp1;
+				ry_temp2 := ry_temp1;
+				rz_temp2 := rz_temp1;
+				rx_temp1 := data_adventure_rxNumber_in;
+				ry_temp1 := data_adventure_ryNumber_in;
+				rz_temp2 := data_adventure_rzNumber_in;
+			end if;
 	end if;
 end process;
 end Behavioral;
