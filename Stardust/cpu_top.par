@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-liangyongning-QTJ5::  Sun Jan 07 14:14:23 2018
+liangyongning-QTJ5::  Sun Jan 07 15:49:10 2018
 
 par -w -intstyle ise -ol high -t 1 cpu_top_map.ncd cpu_top.ncd cpu_top.pcf 
 
@@ -236,9 +236,9 @@ Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5
 
 Updating file: cpu_top.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
 Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 

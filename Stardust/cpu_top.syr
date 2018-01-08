@@ -290,13 +290,13 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 
 
-Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 3.14 secs
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.07 secs
  
 --> 
 
 
-Total memory usage is 524496 kilobytes
+Total memory usage is 524488 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   47 (   0 filtered)
