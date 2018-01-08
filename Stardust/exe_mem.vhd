@@ -33,8 +33,8 @@ entity exe_mem is
 	port (
 				exe_mem_pc_in : in std_logic_vector(15 downto 0);
 				exe_mem_pc_out : out std_logic_vector(15 downto 0);
-				exe_mem_instrution_in : in std_logic_vector(15 downto 0);
-				exe_mem_instrution_out : out std_logic_vector(15 downto 0);
+				exe_mem_instruction_in : in std_logic_vector(15 downto 0);
+				exe_mem_instruction_out : out std_logic_vector(15 downto 0);
 				exe_mem_ry_in : in std_logic_vector(15 downto 0);
 				exe_mem_ry_out : out std_logic_vector(15 downto 0);
 				exe_mem_rz_in : in std_logic_vector(15 downto 0);
@@ -53,7 +53,7 @@ entity exe_mem is
 end exe_mem;
 
 architecture Behavioral of exe_mem is
-signal exe_mem_pc_temp,exe_mem_instrution_temp : std_logic_vector(15 downto 0):="0000000000000000";
+signal exe_mem_pc_temp,exe_mem_instruction_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal exe_mem_ry_temp,exe_mem_rz_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal exe_mem_aluResult_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal exe_mem_memWrite_temp,exe_mem_memRead_temp : std_logic:='0';
@@ -62,7 +62,7 @@ begin
 process(clk50)
 begin
 	exe_mem_pc_temp <= exe_mem_pc_in;
-	exe_mem_instrution_temp <= exe_mem_instrution_in;
+	exe_mem_instruction_temp <= exe_mem_instruction_in;
 	exe_mem_ry_temp <= exe_mem_ry_in;
 	exe_mem_rz_temp <= exe_mem_rz_in;
 	exe_mem_aluResult_temp <= exe_mem_aluResult_in;
@@ -74,7 +74,7 @@ end process;
 process(clk50)
 begin
 	exe_mem_pc_out <= exe_mem_pc_temp;
-	exe_mem_instrution_out <= exe_mem_instrution_temp;
+	exe_mem_instruction_out <= exe_mem_instruction_temp;
 	exe_mem_ry_out <= exe_mem_ry_temp;
 	exe_mem_rz_out <= exe_mem_rz_temp;
 	exe_mem_aluResult_out <= exe_mem_aluResult_temp;
