@@ -103,6 +103,8 @@ begin
 				ry_temp1 := data_adventure_ryNumber_in;
 				rz_temp2 := data_adventure_rzNumber_in;
 			else
+				data_adventure_mux2 <= "01";--多路选择器出来的值
+				data_adventure_mux5 <= "01";--选择内存读出来的数据
 				if_id_pause_control <= '0';
 				id_exe_pause_control <= '0';
 				mem_wb_pause_control <= '0';
