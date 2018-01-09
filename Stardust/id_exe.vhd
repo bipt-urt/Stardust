@@ -34,10 +34,12 @@ entity id_exe is
 	port (
 				id_exe_pc_in : in std_logic_vector(15 downto 0);
 				id_exe_pc_out : out std_logic_vector(15 downto 0);
-				id_exe_instrution_in : in std_logic_vector(15 downto 0);
-				id_exe_instrution_out : out std_logic_vector(15 downto 0);
+				id_exe_instruction_in : in std_logic_vector(15 downto 0);
+				id_exe_instruction_out : out std_logic_vector(15 downto 0);
 				id_exe_immediate_in : in std_logic_vector(15 downto 0);
 				id_exe_immediate_out : out std_logic_vector(15 downto 0);
+				id_exe_pcAddImm_in : in std_logic_vector(15 downto 0);
+				id_exe_pcAddImm_out : out std_logic_vector(15 downto 0);
 				id_exe_rx_in : in std_logic_vector(15 downto 0);
 				id_exe_rx_out : out std_logic_vector(15 downto 0);
 				id_exe_ry_in : in std_logic_vector(15 downto 0);
@@ -68,9 +70,9 @@ entity id_exe is
 end id_exe;	
 				
 architecture Behavioral of id_exe is
-signal id_exe_pc_temp,id_exe_instrution_temp : std_logic_vector(15 downto 0):="0000000000000000";
+signal id_exe_pc_temp,id_exe_instruction_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal id_exe_immediate_temp,id_exe_rx_temp : std_logic_vector(15 downto 0):="0000000000000000";
-signal id_exe_ry_temp,id_exe_rz_temp : std_logic_vector(15 downto 0):="0000000000000000";
+signal id_exe_ry_temp,id_exe_rz_temp,id_exe_pcAddImm_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal id_exe_aluOP_temp : std_logic_vector(3 downto 0):="0000";
 signal id_exe_memWrite_temp,id_exe_memRead_temp : std_logic:='0';
 signal id_exe_mux1_temp,id_exe_mux2_temp : std_logic_vector:="00";
@@ -81,7 +83,7 @@ begin
 process(clk50)
 begin
 	id_exe_pc_temp <= id_exe_pc_in;
-	id_exe_instrution_temp <= id_exe_instrution_in;
+	id_exe_instruction_temp <= id_exe_instruction_in;
 	id_exe_immediate_temp <= id_exe_immediate_in;
 	id_exe_rx_temp <= id_exe_rx_in;
 	id_exe_ry_temp <= id_exe_ry_in;
@@ -94,14 +96,15 @@ begin
 	id_exe_mux3_temp <= id_exe_mux3_in;
 	id_exe_mux4_temp <= id_exe_mux4_in;
 	id_exe_mux5_temp <= id_exe_mux5_in;
-	id_exe_mux6_temp <= id_exe_mux6_in;	
+	id_exe_mux6_temp <= id_exe_mux6_in;
+	id_exe_pcAddImm_temp <= id_exe_pcAddImm_in;
 end process;
 
 process(id_exe_clean,id_exe_pause)
 begin
 	if(id_exe_clean='1' and id_exe_pause='0')then
 		id_exe_pc_out <= "0000000000000000";
-		id_exe_instrution_out <= "0000000000000000";
+		id_exe_instruction_out <= "0000000000000000";
 		id_exe_immediate_out <= "0000000000000000";
 		id_exe_rx_out <= "0000000000000000";
 		id_exe_ry_out <= "0000000000000000";
@@ -115,11 +118,12 @@ begin
 		id_exe_mux4_out <= "00";
 		id_exe_mux5_out <= "00";
 		id_exe_mux6_out <= "00";
+		id_exe_pcAddImm_out <= "0000000000000000";
 	elsif(id_exe_clean='0' and id_exe_pause='1')then
 		null;
 	elsif(id_exe_clean='0' and id_exe_pause='0')then
 		id_exe_pc_out <= id_exe_pc_temp;
-		id_exe_instrution_out <= id_exe_instrution_temp;
+		id_exe_instruction_out <= id_exe_instruction_temp;
 		id_exe_immediate_out <= id_exe_immediate_temp;
 		id_exe_rx_out <= id_exe_rx_temp;
 		id_exe_ry_out <= id_exe_ry_temp;
@@ -133,6 +137,7 @@ begin
 		id_exe_mux4_out <= id_exe_mux4_temp;
 		id_exe_mux5_out <= id_exe_mux5_temp;
 		id_exe_mux6_out <= id_exe_mux6_temp;
+		id_exe_pcAddImm_out <= id_exe_pcAddImm_temp;
 	else
 		null;
 	end if;

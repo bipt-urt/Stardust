@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-liangyongning-QTJ5::  Sun Jan 07 15:49:10 2018
+liangyongning-QTJ5::  Mon Jan 08 11:18:39 2018
 
 par -w -intstyle ise -ol high -t 1 cpu_top_map.ncd cpu_top.ncd cpu_top.pcf 
 
@@ -186,36 +186,36 @@ Total REAL time at the beginning of Placer: 1 secs
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:971b31bd) REAL time: 1 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:971b31bd) REAL time: 1 secs 
+Phase 2.7  Design Feasibility Check (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:971b31bd) REAL time: 1 secs 
+Phase 3.31  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 4.2  Initial Clock and IO Placement
-Phase 4.2  Initial Clock and IO Placement (Checksum:971b31bd) REAL time: 1 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:971b31bd) REAL time: 1 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:971b31bd) REAL time: 1 secs 
+Phase 6.36  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 7.8  Global Placement
-Phase 7.8  Global Placement (Checksum:971b31bd) REAL time: 1 secs 
+Phase 7.8  Global Placement (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:971b31bd) REAL time: 1 secs 
+Phase 8.5  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:971b31bd) REAL time: 1 secs 
+Phase 9.18  Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:971b31bd) REAL time: 1 secs 
+Phase 10.5  Local Placement Optimization (Checksum:971b31bd) REAL time: 2 secs 
 
-Total REAL time to Placer completion: 1 secs 
+Total REAL time to Placer completion: 2 secs 
 Total CPU  time to Placer completion: 1 secs 
 Writing design to file cpu_top.ncd
 
@@ -224,27 +224,27 @@ Writing design to file cpu_top.ncd
 Starting Router
 
 
-Phase  1  : 0 unrouted;      REAL time: 5 secs 
+Phase  1  : 0 unrouted;      REAL time: 6 secs 
 
-Phase  2  : 0 unrouted;      REAL time: 5 secs 
+Phase  2  : 0 unrouted;      REAL time: 6 secs 
 
-Phase  3  : 0 unrouted;      REAL time: 5 secs 
+Phase  3  : 0 unrouted;      REAL time: 6 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 5 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
 Updating file: cpu_top.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
 
-Total REAL time to Router completion: 6 secs 
+Total REAL time to Router completion: 7 secs 
 Total CPU time to Router completion: 5 secs 
 
 Partition Implementation Status
@@ -268,7 +268,7 @@ WARNING:Par:283 - There are 51 loadless signals in this design. This design will
 
 WARNING:Par:284 - There are 72 sourceless signals in this design. This design will not pass the DRC check run by Bitgen.
 
-Total REAL time to PAR completion: 6 secs 
+Total REAL time to PAR completion: 7 secs 
 Total CPU time to PAR completion: 6 secs 
 
 Peak Memory Usage:  592 MB

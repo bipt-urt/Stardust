@@ -37,8 +37,8 @@ entity RAM1 is
 			ramAddr : out std_logic_vector(17 downto 0);
 			data : inout std_logic_vector(15 downto 0);
 			SerialPort: inout std_logic_vector(9 downto 0);
-			instrution_addr : in std_logic_vector(15 downto 0);
-			instrution : out std_logic_vector(15 downto 0);
+			instruction_addr : in std_logic_vector(15 downto 0);
+			instruction : out std_logic_vector(15 downto 0);
 			clk: in std_logic);
 end RAM1;
 
@@ -57,10 +57,10 @@ begin
 			EN<='0';
 			WE<='1';
 		elsif (status="001")then
-			ramAddr<="00" & instrution_addr;
+			ramAddr<="00" & instruction_addr;
 			status<="010";
 		elsif(status="010")then
-			instrution<=data;
+			instruction<=data;
 			OE<='1';
 			status<="000";
 		end if;
