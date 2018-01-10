@@ -45,10 +45,15 @@ signal if_id_pc_temp:std_logic_vector(15 downto 0):="0000000000000000";
 signal if_id_instruction_temp:std_logic_vector(15 downto 0):="0000000000000000";
 begin
 
-process(if_id_clk50)
+process(if_id_clk50,if_id_clean)
 begin
-	if_id_pc_temp<=if_id_pc_in;
-	if_id_instruction_temp<=if_id_instruction_in;
+	if(if_id_clean = '0')then
+		if_id_pc_temp <= if_id_pc_in;
+		if_id_instruction_temp<=if_id_instruction_in;
+	else
+		if_id_pc_temp <= "000000000000000";
+		if_id_instruction_temp <= "0000000000000000";
+	end if;
 end process;
 
 process(if_id_clk50,if_id_clean,if_id_pause)

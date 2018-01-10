@@ -34,7 +34,8 @@ entity RAM2 is
 			EN : out std_logic;
 			WE : out std_logic;
 			EN : out std_logic;
-			writeORread : in std_logic;
+			writeSignal : in std_logic;
+			readSignal : in std_logic;
 			addr : in std_logic_vector(15 downto 0);
 			ram2data : inout std_logic_vector(15 downto 0);
 			ram2addr : out std_logic_vector(17 downto 0);
@@ -49,7 +50,7 @@ begin
 process(clk)
 begin
 	if (clk'event and clk='1')then
-		if( writeORread='1')then
+		if( readSignal='1')then
 			if(status="000")then
 				ram2data<="ZZZZZZZZZZZZZZZZ";
 				OE<='0';
@@ -66,7 +67,7 @@ begin
 				WE<='1';
 				EN<='0';
 			end if;
-		elsif(writeORread='1')then
+		elsif(writeSignal='0')then
 			if(status="000")then
 				ram2data<=indata;
 				ram2addr<="00" & addr;

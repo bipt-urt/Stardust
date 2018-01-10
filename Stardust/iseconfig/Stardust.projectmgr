@@ -9,13 +9,13 @@
          <ClosedNodesVersion>2</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>cpu_top - Behavioral (/home/liangyongning/mypro/Stardust/Stardust/cpu_top.vhd)</SelectedItem>
+         <SelectedItem>mem_wb - Behavioral (/home/liangyongning/mypro/Stardust/Stardust/mem_wb.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000204000000020000000000000000000000000200000064ffffffff000000810000000300000002000002040000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>cpu_top - Behavioral (/home/liangyongning/mypro/Stardust/Stardust/cpu_top.vhd)</CurrentItem>
+      <CurrentItem>mem_wb - Behavioral (/home/liangyongning/mypro/Stardust/Stardust/mem_wb.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -23,13 +23,13 @@
          <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Design Utilities</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000174000000010000000100000000000000000000000064ffffffff000000810000000000000001000001740000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Design Utilities</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -38,7 +38,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000039f000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004e00000001000000000000002a0000000100000000000000820000000100000000000002a50000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000390000000040101000100000000000000000000000064ffffffff0000008100000000000000040000004e00000001000000000000002a0000000100000000000000820000000100000000000002960000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>RAM1.vhd</CurrentItem>
    </ItemView>

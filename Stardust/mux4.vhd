@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    08:48:36 01/09/2018 
+-- Create Date:    10:04:22 01/09/2018 
 -- Design Name: 
--- Module Name:    mux1 - Behavioral 
+-- Module Name:    mux4 - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,31 +29,29 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity mux1 is
-	port (	
-				mux1_rx_in : in std_logic_vector(15 downto 0);
-				mux1_aluResult_in : in std_logic_vector(15 downto 0);
-				mux1_result_out : out std_logic_vector(15 downto 0);
-				mux1_control_in : in std_logic_vector(1 downto 0)
+entity mux4 is
+	port (
+				mux4_aluResult_in : in std_logic_vector(15 downto 0);
+				mux4_rx_in : in std_logic_vector(15 downto 0);
+				mux4_result_out : in std_logic_vector(15 downto 0);
+				mux4_control_in : in std_logic_vector(1 downto 0)
 			);
-end mux1;
+end mux4;
 
-architecture Behavioral of mux1 is
-
-begin
-
-process(mux1_control_in,mux1_aluResult_in,mux1_rx_in)
+architecture Behavioral of mux4 is
 
 begin
 
-	if(mux1_control_in = "01")then
-		mux1_result_out <= mux1_rx_in;
-	elsif(mux1_control_in = "10")then
-		mux1_result_out <= mux1_aluResult_in;
+process(mux4_aluResult_in,mux4_rx_in,mux4_result_out)
+begin
+	if (mux4_control_in = "01")then
+		mux4_result_out <= mux4_aluResult_in;
+	elsif (mux4_control_in = "10")then
+		mux4_result_out <= mux4_aluResult_in;
 	else
 		null;
 	end if;
-
 end process;
+
 end Behavioral;
 
