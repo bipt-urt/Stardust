@@ -30,7 +30,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity id_exe is
-
 	port (
 				id_exe_pc_in : in std_logic_vector(15 downto 0);
 				id_exe_pc_out : out std_logic_vector(15 downto 0);
@@ -80,24 +79,43 @@ signal id_exe_mux3_temp,id_exe_mux4_temp : std_logic_vector:="00";
 signal id_exe_mux5_temp,id_exe_mux6_temp : std_logic_vector:="00";
 begin
 
-process(clk50)
+process(clk50,id_exe_clean)
 begin
-	id_exe_pc_temp <= id_exe_pc_in;
-	id_exe_instruction_temp <= id_exe_instruction_in;
-	id_exe_immediate_temp <= id_exe_immediate_in;
-	id_exe_rx_temp <= id_exe_rx_in;
-	id_exe_ry_temp <= id_exe_ry_in;
-	id_exe_rz_temp <= id_exe_rz_in;
-	id_exe_aluOP_temp <= id_exc_aluOP_in;
-	id_exe_memWrite_temp <= id_exe_memWrite_in;
-	id_exe_memRead_temp <= id_exe_memRead_in;
-	id_exe_mux1_temp <= id_exe_mux1_in;
-	id_exe_mux2_temp <= id_exe_mux2_in;
-	id_exe_mux3_temp <= id_exe_mux3_in;
-	id_exe_mux4_temp <= id_exe_mux4_in;
-	id_exe_mux5_temp <= id_exe_mux5_in;
-	id_exe_mux6_temp <= id_exe_mux6_in;
-	id_exe_pcAddImm_temp <= id_exe_pcAddImm_in;
+	if(id_exe_clean = '0')then
+		id_exe_pc_temp <= id_exe_pc_in;
+		id_exe_instruction_temp <= id_exe_instruction_in;
+		id_exe_immediate_temp <= id_exe_immediate_in;
+		id_exe_rx_temp <= id_exe_rx_in;
+		id_exe_ry_temp <= id_exe_ry_in;
+		id_exe_rz_temp <= id_exe_rz_in;
+		id_exe_aluOP_temp <= id_exc_aluOP_in;
+		id_exe_memWrite_temp <= id_exe_memWrite_in;
+		id_exe_memRead_temp <= id_exe_memRead_in;
+		id_exe_mux1_temp <= id_exe_mux1_in;
+		id_exe_mux2_temp <= id_exe_mux2_in;
+		id_exe_mux3_temp <= id_exe_mux3_in;
+		id_exe_mux4_temp <= id_exe_mux4_in;
+		id_exe_mux5_temp <= id_exe_mux5_in;
+		id_exe_mux6_temp <= id_exe_mux6_in;
+		id_exe_pcAddImm_temp <= id_exe_pcAddImm_in;
+	else
+		id_exe_pc_temp <= "0000000000000000";
+		id_exe_instruction_temp <= "0000000000000000";
+		id_exe_immediate_temp <= "0000000000000000";
+		id_exe_rx_temp <= "0000000000000000";
+		id_exe_ry_temp <= "0000000000000000";
+		id_exe_rz_temp <= "0000000000000000";
+		id_exe_aluOP_temp <= "0000";
+		id_exe_memWrite_temp <= '0';
+		id_exe_memRead_temp <= '0';
+		id_exe_mux1_temp <= "00";
+		id_exe_mux2_temp <= "00";
+		id_exe_mux3_temp <= "00";
+		id_exe_mux4_temp <= "00";
+		id_exe_mux5_temp <= "00";
+		id_exe_mux6_temp <= "00";
+		id_exe_pcAddImm_temp <= "0000000000000000";
+	end if;
 end process;
 
 process(id_exe_clean,id_exe_pause)

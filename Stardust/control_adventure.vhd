@@ -37,8 +37,7 @@ entity control_adventure is
 				control_adventure_instruction :  in std_logic_vector(15 downto 0);
 				control_adventure_mux7 : out std_logic_vector(1 downto 0);
 				control_adventure_if_id_clean : out std_logic;
-				control_adventure_id_exe_clean : out std_logic
-				
+				control_adventure_id_exe_clean : out std_logic				
 			);	
 end control_adventure;
 

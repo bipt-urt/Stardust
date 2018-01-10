@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_arith.all;
 use ieee.std_logic_unsigned.all;
 
-entity gprs is
+entity allRegister is
 	port
 	(
 		read_rx: in std_logic_vector(3 downto 0);
@@ -15,9 +15,9 @@ entity gprs is
 		ry_data: out std_logic_vector(15 downto 0);
 		clk: in std_logic
 	);
-end gprs;
+end allRegister;
 
-architecture Behavioral of gprs is
+architecture Behavioral of allRegister is
 	signal r0: std_logic_vector(15 downto 0) := "0000000000000000";
 	signal r1: std_logic_vector(15 downto 0) := "0000000000000000";
 	signal r2: std_logic_vector(15 downto 0) := "0000000000000000";

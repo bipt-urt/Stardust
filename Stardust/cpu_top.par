@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-liangyongning-QTJ5::  Mon Jan 08 11:18:39 2018
+liangyongning-QTJ5::  Wed Jan 10 09:15:25 2018
 
 par -w -intstyle ise -ol high -t 1 cpu_top_map.ncd cpu_top.ncd cpu_top.pcf 
 
@@ -230,21 +230,21 @@ Phase  2  : 0 unrouted;      REAL time: 6 secs
 
 Phase  3  : 0 unrouted;      REAL time: 6 secs 
 
-Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  4  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
 Updating file: cpu_top.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 7 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 6 secs 
 
-Total REAL time to Router completion: 7 secs 
+Total REAL time to Router completion: 6 secs 
 Total CPU time to Router completion: 5 secs 
 
 Partition Implementation Status

@@ -48,11 +48,15 @@ entity mem_wb is
 end mem_wb;
 
 architecture Behavioral of mem_wb is
+
 signal mem_wb_pc_temp,mem_wb_aluResult_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal mem_wb_memData_temp,mem_wb_rz_temp : std_logic_vector(15 downto 0):="0000000000000000";
 signal mem_wb_mux6_temp : std_logic_vector(1 downto 0):="00";
+
 begin
+
 process(clk50)
+
 begin
 	mem_wb_pc_temp <= mem_wb_pc_in;
 	mem_wb_aluResult_temp <= mem_wb_aluResult_in;

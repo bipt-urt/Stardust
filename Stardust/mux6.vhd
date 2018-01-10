@@ -2,9 +2,9 @@
 -- Company: 
 -- Engineer: 
 -- 
--- Create Date:    08:48:36 01/09/2018 
+-- Create Date:    10:44:19 01/09/2018 
 -- Design Name: 
--- Module Name:    mux1 - Behavioral 
+-- Module Name:    mux6 - Behavioral 
 -- Project Name: 
 -- Target Devices: 
 -- Tool versions: 
@@ -29,31 +29,32 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity mux1 is
-	port (	
-				mux1_rx_in : in std_logic_vector(15 downto 0);
-				mux1_aluResult_in : in std_logic_vector(15 downto 0);
-				mux1_result_out : out std_logic_vector(15 downto 0);
-				mux1_control_in : in std_logic_vector(1 downto 0)
+entity mux6 is
+	port (
+				mux6_aluResult_in : in std_logic_vector(15 downto 0);
+				mux6_memData_in : in std_logic_vector(15 downto 0);
+				mux6_pc_in : in std_logic_vector(15 downto 0);
+				mux6_writeBackData_out : in std_logic_vector(15 downto 0);
+				mux6_control_in : in std_logic_vector(1 downto 0)
 			);
-end mux1;
+end mux6;
 
-architecture Behavioral of mux1 is
-
-begin
-
-process(mux1_control_in,mux1_aluResult_in,mux1_rx_in)
+architecture Behavioral of mux6 is
 
 begin
 
-	if(mux1_control_in = "01")then
-		mux1_result_out <= mux1_rx_in;
-	elsif(mux1_control_in = "10")then
-		mux1_result_out <= mux1_aluResult_in;
+process(mux6_control_in)
+begin
+	if(mux6_control_in = "01")then
+		mux6_writeBackData_out <= mux6_aluResult_in;
+	elsif (mux6_control_in = "01")then
+		mux6_writeBackData_out <= mux6_memData_in;
+	elsif (mux6_control_in = "11")then
+		mux6_writeBackData_out <= mux6_pc_in;
 	else
 		null;
 	end if;
-
 end process;
+
 end Behavioral;
 
