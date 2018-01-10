@@ -1177,14 +1177,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.28"
-     inkscape:cx="551.98437"
-     inkscape:cy="370.57622"
+     inkscape:zoom="12.572359"
+     inkscape:cx="705.47115"
+     inkscape:cy="394.71206"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1215"
+     inkscape:window-height="1000"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1" />
@@ -3320,19 +3320,19 @@
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:4.98193836px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="1292.9753"
-       y="346.18732"
+       style="font-style:normal;font-weight:normal;font-size:3.18191695px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="729.00977"
+       y="612.12964"
        id="text43473"
        sodipodi:linespacing="125%"
-       transform="scale(0.53059257,1.8846853)"><tspan
+       transform="scale(0.94119197,1.0624825)"><tspan
          sodipodi:role="line"
          id="tspan43475"
-         x="1292.9753"
-         y="346.18732">zero_flag</tspan><tspan
+         x="729.00977"
+         y="612.12964">jump_flag</tspan><tspan
          sodipodi:role="line"
-         x="1292.9753"
-         y="352.41473"
+         x="729.00977"
+         y="616.10706"
          id="tspan43477" /></text>
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker43579)"
